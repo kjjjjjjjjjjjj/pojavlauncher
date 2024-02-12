@@ -1,0 +1,3 @@
+git add .github/workflows/build.yml
+git commit -m "Set execute permissions for Gradle wrapper in GitHub Actions workflow"
+git push
