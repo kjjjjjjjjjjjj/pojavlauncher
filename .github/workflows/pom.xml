@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>PojavLauncher</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <!-- Replace "kjjjjjjjjjjjj/Java--for--Android" with your first repository details -->
+        < Java for Android work on Android projects >
+            <groupId>kjjjjjjjjjjjj</groupId>
+            <artifactId>Java--for--Android</artifactId>
+            <version>6.0</version> <!-- Replace with the version you want -->
+        </ help with downloading and running the launcher >
+
+        <!-- Replace "AI1234567891012/LWJGL" with your second repository details -->
+        < work on Minecraft launcher like projects for Android >
+            <groupId>AI1234567891012</groupId>
+            <artifactId>LWJGL</artifactId>
+            <version>1.2</version> <!-- Replace with the version you want -->
+        </ help game runing >
+    </ helping launcher to run Minecraft Java edition in Android >
+</project>
