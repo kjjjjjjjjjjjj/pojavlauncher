@@ -9,7 +9,7 @@ on:
     inputs:
       debug-build:
         description: 'Trigger debug build'
-        default: 'false'
+        default: false
 
 jobs:
   build:
@@ -39,5 +39,6 @@ jobs:
 
     # Add a step for debug build if manually triggered
     - name: Debug Build
-      if: github.event_name == 'workflow_dispatch' && github.event.inputs.debug-build == 'true'
+      if: github.event_name == 'workflow_dispatch' && github.event.inputs.debug-build
       run: ./gradlew buildDebug
+        
